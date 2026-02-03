@@ -239,12 +239,3 @@ npm run dev -- --port 3000
 ```
 
 ---
-
-## Documentacao Adicional
-
-Consulte a pasta `wiki/` para documentacao completa:
-- [Documentacao Tecnica](wiki/Documentacao-Tecnica.md)
-- [Manual de Utilizacao](wiki/Manual-de-Utilizacao.md)
-- [Cenarios de Uso](wiki/Home.md)
-
----
