@@ -1,0 +1,16 @@
+"","Nome","Estado","Transportadora","Latitude","Longitude","UF","Tipo_consumidor"
+"1","Algás","Alagoas","TAG","-9.616302","-35.737022","AL",NA
+"2","Bahiagas","Bahia","TAG","-12.287597","-38.9493535","BA",NA
+"3","Cegas","Ceará","TAG","-3.816057","-38.481677","CE",NA
+"4","Compagas","Curitiba","TBG","-25.4181916","-49.2644575","PR",NA
+"5","Copergas","Pernambuco","TAG","-8.105491","-34.888768","PE",NA
+"6","Esgas","Espirito Santo","TAG","-20.231682","-40.272768","ES",NA
+"7","GASMIG","Minas Gerais","NTS","-19.9258657","-44.0707601","MG",NA
+"8","MGAS","Rio de Janeiro","NTS","-22.9834816","-43.2168902","RJ",NA
+"9","PBGAS","Paraíba","TAG","-7.118168","-34.837089","PA",NA
+"10","Potigas","Rio Grande do Norte","TAG","-5.789188","-35.201721","RN",NA
+"11","Refmat","Bahia","TAG","-12.700531","-38.582182","BA","Consumidor Livre"
+"12","SCGAS","Santa Catarina","NTS + TBG","-28.0783992","-49.6200532","SC",NA
+"13","Sergas","Sergipe","TAG","-10.976870","-37.071579","SE",NA
+"14","Sulgas","Rio Grande do Sul","NTS + TBG","-30.0307963","-51.1813352","RS",NA
+"15","Vale","Rio de Janeiro","NTS","-22.941479","-43.179423","RJ","Consumidor Livre"

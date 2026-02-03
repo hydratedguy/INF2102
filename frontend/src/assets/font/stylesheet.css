@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Canaro Book';
+    src: url('Canaro-Book.eot');
+    src: local('Canaro Book'), local('Canaro-Book'),
+        url('Canaro-Book.eot?#iefix') format('embedded-opentype'),
+        url('Canaro-Book.woff2') format('woff2'),
+        url('Canaro-Book.woff') format('woff'),
+        url('Canaro-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Canaro';
+    src: url('Canaro-SemiBold.eot');
+    src: local('Canaro SemiBold'), local('Canaro-SemiBold'),
+        url('Canaro-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('Canaro-SemiBold.woff2') format('woff2'),
+        url('Canaro-SemiBold.woff') format('woff'),
+        url('Canaro-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Canaro';
+    src: url('Canaro-Medium.eot');
+    src: local('Canaro Medium'), local('Canaro-Medium'),
+        url('Canaro-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Canaro-Medium.woff2') format('woff2'),
+        url('Canaro-Medium.woff') format('woff'),
+        url('Canaro-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+

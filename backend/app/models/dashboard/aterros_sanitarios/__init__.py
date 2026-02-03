@@ -1,0 +1,1 @@
+from app.models.dashboard.aterros_sanitarios.aterros_sanitarios import AterrosSanitarios as AterrosSanitarios

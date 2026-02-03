@@ -1,0 +1,1 @@
+from app.models.dashboard.compra_venda.compra_venda import CompraVenda as CompraVenda

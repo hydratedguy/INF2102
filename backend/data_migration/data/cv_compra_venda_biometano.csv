@@ -1,0 +1,16 @@
+id,operacao,descricao,estado,inicio_producao,capacidade_inicial,capacidade_atual,plantas,latitude,longitude,principal_fonte,logistica,preco,valorizacao,aplicacao,origem_compra
+1,venda,ORIZON,SP,2022,900,1250,17,-23.4089,-46.6527,Aterros Sanitários,O aterro já está conectado à malha da Comgás,US$ 14 e US$ 17 o MM de BTU”,Contratos indexados a indicadores nacionais,,
+2,venda,GASVERDE,RJ,2022,300,500,10,-22.7853,-43.7663,Aterros Sanitários,,,Emite o CBIO e o BIORec,"Industria, Frotas, Agronegócios",
+3,compra,Copergás,PE,,,60,,-8.07613,-34.89438,,,,,,Orizon
+4,compra,Compagas,PR,,,2,,-25.48415,-49.26986,,,,,,Orizon
+5,compra,ES Gás,ES,,,5,,-20.23171,-40.27282,,,,,,
+6,compra,Sergás,SE,,,10,,-10.97663,-37.07150,,,,,,Orizon
+10,intencao,CEG Rio,RJ,,,,,-22.35476,-41.77876,,,,,"Criar espécies de “municípios verdes”, supridos integralmente pelo gás natural renovável.",
+11,intencao,Comgas,SP,,,,,-23.56080,-46.66597,,,,,Para injençao na rede,
+12,intencao,GásMig,MG,,,,,-19.92867,-42.95058,,,,,,
+13,venda,ULTRAGAZ,SP,,,68,1,-23.460160045066463,-46.64359919993473,,,,,,
+14,venda,ENERGISA,SC,,,25,1,-21.405364550503666,-42.681802700004965,,,,,,
+15,compra,AMBEV,SP,,,10,,-23.49414011596223,-46.76033886931049,,,,,,
+16,compra,HALEON,RJ,,,20,,-22.96636751699884,-43.41700611107468,,,,,,
+17,compra,VESUVIUS,RJ,,,30,,-22.90605462289766,-43.7354593667531,,,,,,
+18,venda,COPERSUCAR,SP,,,160,38,-23.755894075889707,-46.29756627746694,,,,,,

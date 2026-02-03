@@ -1,0 +1,47 @@
+set shell := ["powershell", "-NoLogo", "-NoProfile", "-Command"]
+
+# Variáveis
+backend_dir := "backend"
+frontend_dir := "frontend"
+
+# ============================
+# BACKEND
+# ============================
+
+# Rodar o backend FastAPI com Poetry
+backend-dev:
+    cd {{backend_dir}} && poetry run uvicorn app.main:app --reload
+
+# Instalar dependências do backend
+backend-install:
+    cd {{backend_dir}} && poetry install
+
+# Criar migração Alembic
+migrate msg="migration":
+    cd {{backend_dir}} && poetry run alembic revision --autogenerate -m "{{msg}}"
+
+# Aplicar migrações
+upgrade:
+    cd {{backend_dir}} && poetry run alembic upgrade head
+
+# ============================
+# FRONTEND
+# ============================
+
+frontend-dev:
+    cd {{frontend_dir}} && npm run dev
+
+frontend-install:
+    cd {{frontend_dir}} && npm install
+
+frontend-build:
+    cd {{frontend_dir}} && npm run build
+
+# ============================
+# UTILITÁRIOS
+# ============================
+
+# Sobe backend e frontend em janelas separadas
+dev:
+    just backend-dev &
+    just frontend-dev

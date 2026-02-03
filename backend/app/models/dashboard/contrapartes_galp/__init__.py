@@ -1,0 +1,1 @@
+from app.models.dashboard.contrapartes_galp.contrapartes_galp import ContraparteGalp as ContraparteGalp
