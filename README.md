@@ -40,7 +40,7 @@ git --version
 ### 1. Clonar o repositorio
 
 ```bash
-git clone [<url-do-repositorio>](https://github.com/hydratedguy/INF2102)
+git clone https://github.com/hydratedguy/INF2102
 cd galp-simbio
 ```
 
