@@ -93,9 +93,9 @@ cd backend
 poetry install
 
 # Ativar ambiente virtual
-poetry shell
+poetry env activate
 
-# Executar migracoes do banco de dados
+# Executar migracoes do banco de dados caso use banco local
 alembic upgrade head
 ```
 
@@ -119,7 +119,7 @@ npm install
 cd backend
 
 # Ativar ambiente virtual (se ainda nao estiver ativo)
-poetry shell
+poetry env activate
 
 # Iniciar servidor
 uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
